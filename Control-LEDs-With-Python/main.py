@@ -1,10 +1,10 @@
 from cvzone.SerialModule import SerialObject
 import cv2
 
-redOn = cv2.imread("red-on.png")
-yellowOn = cv2.imread("yellow-on.png")
-greenOn = cv2.imread("green-on.png")
-allOff = cv2.imread("all-off.png")
+redOn = cv2.imread("./Images/red-on.png")
+yellowOn = cv2.imread("./Images/yellow-on.png")
+greenOn = cv2.imread("./Images/green-on.png")
+allOff = cv2.imread("./Images/all-off.png")
 
 arduino = SerialObject("COM6")
 
